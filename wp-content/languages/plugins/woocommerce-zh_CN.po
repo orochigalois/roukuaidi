@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-06 16:16+1100\n"
+"PO-Revision-Date: 2021-02-06 16:30+1100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35214,7 +35214,7 @@ msgstr "允许使用货到付款"
 #: packages/woocommerce-blocks/build/wc-payment-method-cod.js:1
 #: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/cod/index.js:15
 msgid "Cash on delivery"
-msgstr "货到付款"
+msgstr "微信转账"
 
 #: packages/woocommerce-blocks/build/wc-payment-method-cheque.js:1
 #: packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/cheque/index.js:15

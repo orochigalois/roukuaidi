@@ -151,3 +151,6 @@ add_action('init', function () {
         remove_action('admin_bar_menu', 'wp_admin_bar_comments_menu', 60);
     }
 });
+
+
+// add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );

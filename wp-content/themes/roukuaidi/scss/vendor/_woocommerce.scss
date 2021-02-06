@@ -1,0 +1,43 @@
+.woocommerce-terms-and-conditions-wrapper{
+    display: none;
+}
+
+.woocommerce-additional-fields__field-wrapper{
+    #order_comments_field{
+        .woocommerce-input-wrapper{
+            flex: 100%;
+            textarea{
+                min-height: 200px;
+            }
+        }
+    }
+}
+
+.woocommerce-billing-fields{
+    .woocommerce-billing-fields__field-wrapper{
+        .form-row{
+            label{
+                width: 100%;
+            }
+            span{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+.woocommerce-ordering{
+    display: none;
+}
+.woocommerce-result-count{
+    display: none;
+}
+
+
+.woocommerce-page .woocommerce ul.products li.product{
+    float: none;
+    margin:auto;
+    width: 100%;
+    padding: 15px;
+}

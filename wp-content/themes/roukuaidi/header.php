@@ -36,7 +36,7 @@
 		<header id="header">
 			<div class="container">
 				<div class="header_wrap">
-					<a href="/">
+					<a href="/" class="logo">
 						<img src="<?= get_field('header_logo', 'options')['url']; ?>" alt="">
 					</a>
 				</div>
