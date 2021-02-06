@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-04 06:46:57+0000\n"
+"PO-Revision-Date: 2021-02-06 04:55:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6948,7 +6948,7 @@ msgstr "插件成功升级。"
 msgctxt "Active plugin installations"
 msgid "%s+ Million"
 msgid_plural "%s+ Million"
-msgstr[0] "%s+百万"
+msgstr[0] "超%s百万"
 
 #. translators: 1: Error message, 2: Line number.
 #: wp-admin/link-parse-opml.php:89
@@ -10400,7 +10400,7 @@ msgstr ""
 "如果您不希望参加，您只需忽略本邮件。\n"
 "本邀请函仅在数日内有效。\n"
 "\n"
-"如果您愿意，请点击下面的链接来启用您的用户账户：\n"
+"如果您愿意，请点击下面的链接来激活您的用户账户：\n"
 "%%s"
 
 #: wp-admin/includes/theme.php:316 wp-admin/includes/meta-boxes.php:494

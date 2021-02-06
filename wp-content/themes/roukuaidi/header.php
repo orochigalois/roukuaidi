@@ -39,38 +39,6 @@
 					<a href="/">
 						<img src="<?= get_field('header_logo', 'options')['url']; ?>" alt="">
 					</a>
-
-					<nav id="nav" role="navigation" aria-label="Primary Menu"><a class="nav-opener" href="#"><span>Open</span></a>
-						<div class="nav-drop">
-							<?php
-
-							wp_nav_menu(array(
-								'depth' => 0,
-								'container' => '',
-								'theme_location' => 'header-menu',
-							));
-
-							?>
-						</div>
-					</nav>
-
-					<span class="hphone">
-
-						<a href="tel:<?= get_field('header_phone', 'options'); ?>">
-							<img src="<?= get_template_directory_uri() . '/images/svg/phone.svg' ?>" alt="">
-							<?= get_field('header_phone', 'options'); ?></a>
-					</span>
-					<?php
-
-					$link = get_field('header_button', 'options');
-
-					if ($link) :
-						$link_url = $link['url'];
-						$link_title = $link['title'];
-						$link_target = $link['target'] ? $link['target'] : '_self';
-					?>
-						<a class="header_btn" href="<?php echo esc_url($link_url); ?>" target="<?php echo esc_attr($link_target); ?>"><?php echo esc_html($link_title); ?></a>
-					<?php endif; ?>
 				</div>
 			</div>
 

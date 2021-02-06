@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.6.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-04 07:16:24+0000\n"
+"PO-Revision-Date: 2021-02-06 05:00:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2827,7 +2827,7 @@ msgstr "检测到了不匹配的变量。"
 
 #: wp-activate.php:30
 msgid "A key value mismatch has been detected. Please follow the link provided in your activation email."
-msgstr "检测到了不匹配的键值。请点击您的启用邮件中的链接。"
+msgstr "检测到了不匹配的键值。请点击您的激活邮件中的链接。"
 
 #: wp-includes/class-wp-editor.php:1394
 msgid "Classic Block Keyboard Shortcuts"
@@ -5278,14 +5278,14 @@ msgstr "由%s"
 #: wp-includes/ms-functions.php:1128
 msgctxt "New user notification email subject"
 msgid "[%1$s] Activate %2$s"
-msgstr "[%1$s] 启用%2$s"
+msgstr "[%1$s] 激活账户%2$s"
 
 #. translators: New site notification email subject. 1: Network title, 2: New
 #. site URL.
 #: wp-includes/ms-functions.php:1016
 msgctxt "New site notification email subject"
 msgid "[%1$s] Activate %2$s"
-msgstr "[%1$s] 启用%2$s"
+msgstr "[%1$s] 激活站点%2$s"
 
 #: wp-includes/blocks/rss.php:19 wp-includes/widgets.php:1525
 #: wp-includes/widgets.php:1648
@@ -7627,7 +7627,7 @@ msgstr "您正在浏览%1$s博客在%2$s的归档。"
 #. translators: %s: Admin email link.
 #: wp-includes/ms-load.php:111
 msgid "This site has not been activated yet. If you are having problems activating your site, please contact %s."
-msgstr "此站点还未被启用。如果您在启用站点时遇到困难，请联系%s。"
+msgstr "此站点还未被激活。如果您在激活站点时遇到困难，请联系%s。"
 
 #. translators: %s: Email address.
 #: wp-signup.php:676 wp-signup.php:834
@@ -10871,11 +10871,11 @@ msgid ""
 "\n"
 "After you activate, you will receive *another email* with your login."
 msgstr ""
-"要启用您的用户账户，请点击下面链接：\n"
+"要激活您的用户账户，请点击下面链接：\n"
 "\n"
 "%s\n"
 "\n"
-"启用成功后，您将收到另一封邮件，请使用该邮件中的信息登录。"
+"激活成功后，您将收到另一封邮件，请使用该邮件中的信息登录。"
 
 #. translators: New user notification email. 1: User login, 2: User IP address,
 #. 3: URL to Network Settings screen.
@@ -11559,13 +11559,13 @@ msgstr "%1$s是您的新站点。使用您现有的密码来作为%3$s<a href=\"
 #. password URL.
 #: wp-activate.php:159
 msgid "Your site at %1$s is active. You may now log in to your site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
-msgstr "您在%1$s的站点已启用。请使用您选择的用户名%2$s和%3$s邮箱中收到的密码来登录您的站点。如果您找不到我们发送的邮件，请检查“垃圾邮件”文件夹。如果您一小时之后仍不能收到邮件，请考虑<a href=\"%4$s\">重置您的密码</a>。"
+msgstr "您在%1$s的站点已激活。请使用您选择的用户名%2$s和%3$s邮箱中收到的密码来登录您的站点。如果您找不到我们发送的邮件，请检查“垃圾邮件”文件夹。如果您一小时之后仍不能收到邮件，请考虑<a href=\"%4$s\">重置您的密码</a>。"
 
 #. translators: 1: Login URL, 2: Username, 3: User email address, 4: Lost
 #. password URL.
 #: wp-activate.php:150
 msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
-msgstr "您的帐户已启用。请使用您选择的用户名（%2$s）和%3$s邮箱中收到的密码来<a href=\"%1$s\">登录</a>您的站点。如果您找不到我们发送的邮件，请检查“垃圾邮件”文件夹。如果您一小时之后仍不能收到邮件，请考虑<a href=\"%4$s\">重置您的密码</a>。"
+msgstr "您的账户已激活。请使用您选择的用户名（%2$s）和%3$s邮箱中收到的密码来<a href=\"%1$s\">登录</a>您的站点。如果您找不到我们发送的邮件，请检查“垃圾邮件”文件夹。如果您一小时之后仍不能收到邮件，请考虑<a href=\"%4$s\">重置您的密码</a>。"
 
 #. translators: %s: Database repair URL.
 #: wp-includes/functions.php:1777
@@ -11747,12 +11747,12 @@ msgstr "您需在第一个参数指定需要验证的nonce操作。"
 #. translators: 1: Login URL, 2: Network home URL.
 #: wp-activate.php:202
 msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
-msgstr "您的帐户已启用。您可<a href=\"%1$s\">登录</a>或<a href=\"%2$s\">回首页</a>。"
+msgstr "您的账户已激活。您可<a href=\"%1$s\">登录</a>或<a href=\"%2$s\">回首页</a>。"
 
 #. translators: 1: Site URL, 2: Login URL.
 #: wp-activate.php:194
 msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
-msgstr "您的帐户已启用。请<a href=\"%1$s\">浏览您的站点</a>或<a href=\"%2$s\">登录</a>"
+msgstr "您的账户已激活。请<a href=\"%1$s\">浏览您的站点</a>或<a href=\"%2$s\">登录</a>"
 
 #: wp-includes/class-wp-editor.php:1256 wp-includes/js/dist/editor.js:7957
 #: wp-includes/js/dist/block-library.js:11034
@@ -15591,11 +15591,11 @@ msgstr "用户名："
 
 #: wp-activate.php:30 wp-activate.php:169
 msgid "An error occurred during the activation"
-msgstr "启用过程中发生了错误"
+msgstr "激活过程中发生了错误"
 
 #: wp-activate.php:144 wp-activate.php:178
 msgid "Your account is now active!"
-msgstr "您的帐户现已启用！"
+msgstr "您的账户现已激活！"
 
 #: wp-activate.php:135 wp-admin/includes/class-wp-themes-list-table.php:216
 #: wp-admin/includes/class-theme-installer-skin.php:141
@@ -15612,7 +15612,7 @@ msgstr "启用"
 
 #: wp-activate.php:131
 msgid "Activation Key:"
-msgstr "启用密钥："
+msgstr "激活密钥："
 
 #: wp-activate.php:128
 msgid "Activation Key Required"

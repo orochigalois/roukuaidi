@@ -7799,16 +7799,18 @@ body {
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Noto Serif SC", serif;
+  color: black;
 }
 
 h1 {
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Serif SC", serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 200;
   font-size: 48px;
   line-height: 48px;
   /* or 100% */
-  color: #FFFFFF;
+  color: black;
 }
 @media (max-width: 991.98px) {
   h1 {
@@ -7818,21 +7820,21 @@ h1 {
 }
 
 h2 {
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Serif SC", serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 200;
   font-size: 22px;
   line-height: 26px;
-  color: #FFFFFF;
+  color: black;
 }
 
 h3 {
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Serif SC", serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 200;
   font-size: 30px;
   line-height: 36px;
-  color: #115AA3;
+  color: black;
 }
 @media (max-width: 991.98px) {
   h3 {
@@ -7842,14 +7844,14 @@ h3 {
 }
 
 h4 {
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Serif SC", serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 200;
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
   text-align: center;
-  color: #444444;
+  color: black;
 }
 @media (max-width: 991.98px) {
   h4 {
@@ -7859,12 +7861,12 @@ h4 {
 }
 
 p {
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Serif SC", serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 200;
   font-size: 16px;
   line-height: 24px;
-  color: #797979;
+  color: black;
 }
 
 #header {
