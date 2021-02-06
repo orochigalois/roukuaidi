@@ -1,0 +1,95 @@
+/** Common sass **/
+
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	@include font-smoothing(on);
+
+}
+
+.wrapper {
+	// overflow-x:hidden;
+}
+
+
+h1 {
+
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 48px;
+	/* or 100% */
+
+	color: #FFFFFF;
+
+	@include media-breakpoint-down(md) {
+		font-size: 32px;
+		line-height: 32px;
+	}
+
+}
+
+
+h2 {
+
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+
+	color: #FFFFFF;
+
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+
+	color: #115AA3;
+
+	@include media-breakpoint-down(md) {
+		font-size: 20px;
+		line-height: 22px;
+	}
+}
+
+h4 {
+
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	/* identical to box height */
+	text-align: center;
+
+	color: #444444;
+
+	@include media-breakpoint-down(md) {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+
+}
+
+p {
+
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #797979;
+
+
+}

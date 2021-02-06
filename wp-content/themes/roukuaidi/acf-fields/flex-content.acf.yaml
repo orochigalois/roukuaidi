@@ -1,0 +1,188 @@
+title: "Flexible Content"
+key: "flex_content"
+position: "acf_after_title"
+hide_on_screen: []
+location: null
+fields:
+  flexible:
+    label: Content Builder
+    type: "flexible_content"
+    button_label: "Add Row"
+    min: 0
+    max: 0
+    layouts:
+      form_hero_section:
+        display: "block"
+        label: "Form Hero Section"
+        sub_fields:
+          screenshot:
+            type: message
+            label: Module Screenshot
+            message: <a href="%%THEME_INSTRUCTION_FOLDER%%form_hero_section.png" data-lity>Demo Preview</a>
+          background_image:
+            label: Background Image
+            type: image
+            preview_size: thumbnail
+            max_size: 5 # in MB
+          title:
+            label: Title
+            type: text
+          text:
+            label: Text
+            type: text
+          form_title:
+            label: Form Title
+            type: text
+          form_shortcode:
+            label: Form Shortcode
+            type: text
+      image_text_section:
+        display: "block"
+        label: "Image+Text Section"
+        sub_fields:
+          screenshot:
+            type: message
+            label: Module Screenshot
+            message: <a href="%%THEME_INSTRUCTION_FOLDER%%image_text_section.png" data-lity>Demo Preview</a>
+          image:
+            label: Image
+            type: image
+            preview_size: thumbnail
+            max_size: 5 # in MB
+          wysiwyg:
+            instructions: <a href="%%THEME_INSTRUCTION_FOLDER%%list.gif" data-lity>How to make a stylish list</a>
+            label: Wysiwyg
+            type: wysiwyg
+            tabs: all
+            toolbar: full
+            media_upload: true
+            delay: true
+      icons_banner_section:
+        display: "block"
+        label: "Icons Banner Section"
+        sub_fields:
+          screenshot:
+            type: message
+            label: Module Screenshot
+            message: <a href="%%THEME_INSTRUCTION_FOLDER%%icons_banner_section.png" data-lity>Demo Preview</a>
+          title:
+            label: Title
+            type: text
+          icons:
+            label: Icons
+            type: repeater
+            layout: block
+            sub_fields:
+              image:
+                label: Image
+                type: image
+                preview_size: thumbnail
+                max_size: 5 # in MB
+              title:
+                label: Title
+                type: text
+              text:
+                label: Text
+                type: text
+              link:
+                label: Link
+                type: link
+                return_format: array
+      list_section:
+        display: "block"
+        label: "List Section"
+        sub_fields:
+          screenshot:
+            type: message
+            label: Module Screenshot
+            message: <a href="%%THEME_INSTRUCTION_FOLDER%%list_section.png" data-lity>Demo Preview</a>
+          background_color:
+            label: Background Color
+            type: "color_picker"
+            default_value: "#FFFFFF"
+          title:
+            label: Title
+            type: text
+          left_column_title:
+            label: Left Column Title
+            type: text
+          left_column_list:
+            label: Left Column List
+            type: repeater
+            layout: table
+            sub_fields:
+              text:
+                label: Text
+                type: text
+          right_column_title:
+            label: Right Column Title
+            type: text
+          right_column_list:
+            label: Right Column List
+            type: repeater
+            layout: table
+            sub_fields:
+              text:
+                label: Text
+                type: text
+      cta_banner_section:
+        display: "block"
+        label: "CTA Banner Section"
+        sub_fields:
+          screenshot:
+            type: message
+            label: Module Screenshot
+            message: <a href="%%THEME_INSTRUCTION_FOLDER%%cta_banner_section.png" data-lity>Demo Preview</a>
+          title:
+            label: Title
+            type: text
+          text:
+            label: Text
+            type: text
+          link:
+            label: Link
+            type: link
+            return_format: array
+      hero_section:
+        display: "block"
+        label: "Hero Section"
+        sub_fields:
+          screenshot:
+            type: message
+            label: Module Screenshot
+            message: <a href="%%THEME_INSTRUCTION_FOLDER%%hero_section.png" data-lity>Demo Preview</a>
+          background_image:
+            label: Background Image
+            type: image
+            preview_size: thumbnail
+            max_size: 5 # in MB
+          title:
+            label: Title
+            type: text
+      contact_section:
+        display: "block"
+        label: "Contact Section"
+        sub_fields:
+          screenshot:
+            type: message
+            label: Module Screenshot
+            message: <a href="%%THEME_INSTRUCTION_FOLDER%%contact_section.png" data-lity>Demo Preview</a>
+          form_shortcode:
+            label: Form Shortcode
+            type: text
+          text:
+            label: Text
+            type: text
+          phone:
+            label: Phone
+            type: text
+          email:
+            label: Email
+            type: text
+          address:
+            label: Address
+            type: text
+          link:
+            label: Link
+            type: link
+            return_format: array

@@ -1,0 +1,61 @@
+title: 'Barrister Field'
+key: 'post_default'
+position: 'acf_after_title'
+hide_on_screen: []
+location:
+  -
+    -
+      param: 'post_type'
+      operator: '=='
+      value: 'barrister'
+fields:
+  surname:
+    type: text
+    label: Surname
+  start_year:
+    label: Start Year
+    type: "date_picker"
+    display_format: "Y"
+    return_format: "Y"
+    instructions: You can select any date as long as the year is correct
+  tel:
+    type: text
+    label: Tel Text
+    instructions: Thie field will appear on page, e.g. T + 61 2 9224 5600
+  tel_link:
+    type: text
+    label: Tel Link
+    instructions: e.g. 61292245600
+  fax:
+    type: text
+    label: Fax Text
+    instructions: Thie field will appear on page, e.g. F + 61 2 9223 3915
+  fax_link:
+    type: text
+    label: Fax Link
+    instructions: e.g. 61292233915
+  email:
+    type: text
+    label: Email
+  expertise:
+    label: AREAS OF EXPERTISE
+    type: "wysiwyg"
+    tabs: 'all'
+    toolbar: 'full'
+    media_upload: true
+    delay: true
+  admissions_appointments:
+    label: ADMISSIONS & APPOINTMENTS
+    type: "wysiwyg"
+    tabs: 'all'
+    toolbar: 'full'
+    media_upload: true
+    delay: true
+  background_experience:
+    label: BACKGROUND & EXPERIENCE
+    type: "wysiwyg"
+    tabs: 'all'
+    toolbar: 'full'
+    media_upload: true
+    delay: true
+    

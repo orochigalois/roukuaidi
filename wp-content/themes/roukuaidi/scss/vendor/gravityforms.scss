@@ -1,0 +1,152 @@
+.gform_confirmation_message{
+    color:white;
+}
+.gform_wrapper {
+    max-width: 610px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 30px 25px 30px 40px;
+    @include media-breakpoint-down(sm) { 
+        padding: 20px;
+
+    }
+
+    form {
+        div.validation_error{
+            display: none;
+        }
+        .gform_heading {
+            margin-bottom: 0;
+
+            h3 {
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 36px;
+
+                color: #125BA4;
+                @include media-breakpoint-down(sm) { 
+                    font-size: 24px;
+                    line-height: 30px;
+
+                }
+
+            }
+        }
+
+        .gform_body {
+            ul li.gfield {
+                margin-top: 0;
+            }
+            li.gfield.gfield_error{
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+
+                background: #FFFFFF;
+                border: 1px solid #E3E3E3;
+                box-sizing: border-box;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                border-top-left-radius: 2px;
+                border-bottom-left-radius: 2px;
+                border-left: #125BA4 2px solid;
+
+
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+
+                color: #797979;
+                padding: 10px 16px;
+
+
+
+            }
+
+            ul.gform_fields li.gfield select {
+                background: #FFFFFF;
+                border: 1px solid #E3E3E3;
+                box-sizing: border-box;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                border-top-left-radius: 2px;
+                border-bottom-left-radius: 2px;
+                border-left: #125BA4 2px solid;
+                
+
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+
+                color: #797979;
+                padding: 8px 16px;
+                padding-right: 36px;
+                width: 100%;
+                margin-top: 12px;
+                margin-bottom: 12px;
+                margin-left: 0;
+                appearance: none;
+                background: url(../images/svg/downarrow.svg) no-repeat white;
+                background-position: right 10px center;
+            }
+
+            textarea {
+                background: #FFFFFF;
+                border: 1px solid #E3E3E3;
+                box-sizing: border-box;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                border-top-left-radius: 2px;
+                border-bottom-left-radius: 2px;
+                border-left: #125BA4 2px solid;
+
+
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+
+                color: #797979;
+                padding: 10px 16px;
+                height: 118px;
+            }
+        }
+
+        .gform_footer {
+            margin-top: 0;
+
+            input[type=submit] {
+
+                background: #EC293B;
+                border-radius: 100px;
+                border: 0;
+
+                font-family: 'Lato', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 10px 20px;
+                color: #FFFFFF;
+                margin-left: auto;
+                display: block;
+
+
+            }
+        }
+
+
+    }
+
+
+}

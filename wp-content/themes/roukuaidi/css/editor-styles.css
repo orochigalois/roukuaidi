@@ -1,0 +1,20 @@
+ul.mark-right {
+    list-style-type: none;
+}
+
+ul.mark-right>li::before {
+    content: url(../images/svg/right.svg);
+    margin-right: 7px;
+    top: 4px;
+    position: relative;
+}
+ul.mark-wrong {
+    list-style-type: none;
+}
+
+ul.mark-wrong>li::before {
+    content: url(../images/svg/wrong.svg);
+    margin-right: 7px;
+    top: 4px;
+    position: relative;
+}

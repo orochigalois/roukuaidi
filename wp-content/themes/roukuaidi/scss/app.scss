@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;700&display=swap');
+
+//font-family: 'Noto Serif SC', serif;
+
+
+@import "mixins";
+
+// Vendors
+@import "vendor/bootstrap";
+@import "vendor/gravityforms";
+
+@import "common";
+@import "header";
+@import "footer";
+
+
+// @import "modules/form_hero";
+// @import "modules/image_text";
+// @import "modules/icons_banner";
+// @import "modules/list";
+// @import "modules/cta_banner";
+// @import "modules/hero";
+// @import "modules/contact";

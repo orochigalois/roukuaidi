@@ -1,0 +1,19 @@
+title: 'Page Default'
+key: 'page_default'
+position: 'acf_after_title'
+hide_on_screen: []
+location:
+  -
+    -
+      param: 'page_template'
+      operator: '=='
+      value: 'default'
+fields:
+  flex_content:
+    label: Flex Content
+    type: "clone"
+    display: "seamless"
+    prefix_label: false
+    prefix_name: false
+    clone:
+      - "flex_content"

@@ -1,0 +1,6 @@
+fields:
+  - options.acf.yaml
+  - flex-content.acf.yaml
+pages:
+  - page-default.acf.yaml
+  # - post-default.acf.yaml
