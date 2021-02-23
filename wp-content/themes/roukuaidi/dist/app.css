@@ -7823,6 +7823,30 @@ a.close.disabled {
   padding: 15px;
 }
 
+.woocommerce-Price-amount::after {
+  content: " / 公斤";
+}
+
+.product-subtotal .woocommerce-Price-amount::after {
+  display: none;
+}
+
+.cart-subtotal .woocommerce-Price-amount::after {
+  display: none;
+}
+
+.order-total .woocommerce-Price-amount::after {
+  display: none;
+}
+
+.product-total .woocommerce-Price-amount::after {
+  display: none;
+}
+
+.woocommerce-order {
+  padding: 0 15px;
+}
+
 /** Common sass **/
 html,
 body {
@@ -7904,6 +7928,7 @@ p {
 
 #header .header_wrap {
   text-align: center;
+  border-bottom: 1px solid #eeeeee;
 }
 #header .header_wrap .logo img {
   max-width: 300px;
@@ -7918,6 +7943,7 @@ p {
 }
 
 .footer .footer_wrap {
+  border-top: 1px solid #eeeeee;
   padding: 30px 40px 12px;
   display: flex;
   justify-content: space-between;
@@ -7930,24 +7956,22 @@ p {
   }
 }
 .footer .footer_wrap p {
-  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 20px;
   /* identical to box height, or 167% */
   color: #444444;
+  text-align: center;
 }
 .footer .footer_wrap a {
-  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 20px;
   /* identical to box height, or 167% */
   color: #444444;
-}
-.footer .footer_wrap .footer_right {
-  position: relative;
-  top: -9px;
+  text-align: center;
+  display: block;
+  margin-bottom: 16px;
 }

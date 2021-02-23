@@ -2,6 +2,7 @@
 
 
     .footer_wrap{
+        border-top: 1px solid rgb(238,238,238);
         padding: 30px 40px 12px;
         display: flex;
         justify-content: space-between;
@@ -13,7 +14,6 @@
     
     
         p {
-            font-family: 'Lato', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 12px;
@@ -21,10 +21,10 @@
             /* identical to box height, or 167% */
     
             color: #444444;
+            text-align: center;
         }
     
         a{
-            font-family: 'Lato', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 12px;
@@ -32,11 +32,10 @@
             /* identical to box height, or 167% */
     
             color: #444444;
+            text-align: center;
+            display: block;
+            margin-bottom: 16px;
         }
 
-        .footer_right{
-            position: relative;
-            top:-9px;
-        }
     }
 }

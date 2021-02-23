@@ -41,3 +41,34 @@
     width: 100%;
     padding: 15px;
 }
+
+.woocommerce-Price-amount{
+    &::after{
+        content:' / 公斤'
+    }
+}
+
+.product-subtotal .woocommerce-Price-amount{
+    &::after{
+        display: none;
+    }
+}
+.cart-subtotal .woocommerce-Price-amount{
+    &::after{
+        display: none;
+    }
+}
+.order-total .woocommerce-Price-amount{
+    &::after{
+        display: none;
+    }
+}
+.product-total .woocommerce-Price-amount{
+    &::after{
+        display: none;
+    }
+}
+
+.woocommerce-order{
+    padding:0 15px;
+}
