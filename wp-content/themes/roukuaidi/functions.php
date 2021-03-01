@@ -154,3 +154,13 @@ add_action('init', function () {
 
 
 // add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
+
+
+function alex_product_thumbnail_size( $size ) {
+    global $product;
+
+    $size = 'medium';
+
+    return $size;
+}
+add_filter( 'single_product_archive_thumbnail_size', 'alex_product_thumbnail_size' );

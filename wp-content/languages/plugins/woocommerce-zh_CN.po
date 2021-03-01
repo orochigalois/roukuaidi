@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-06 16:30+1100\n"
+"PO-Revision-Date: 2021-02-25 12:51+1100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29357,7 +29357,7 @@ msgstr "说明将被添加到感谢页面。"
 #: includes/gateways/cod/class-wc-gateway-cod.php:86
 #: includes/gateways/cod/class-wc-gateway-cod.php:93
 msgid "Pay with cash upon delivery."
-msgstr "使用微信转账线下支付。"
+msgstr "请使用微信转账线下支付。"
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:85
 msgid "Payment method description that the customer will see on your website."

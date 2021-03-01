@@ -37,5 +37,12 @@
             margin-bottom: 16px;
         }
 
+        br{
+            display: none;
+            @media only screen and (max-width: 450px) { 
+                display:block;
+            }
+        }
+
     }
 }

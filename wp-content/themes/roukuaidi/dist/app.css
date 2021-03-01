@@ -7818,13 +7818,25 @@ a.close.disabled {
 
 .woocommerce-page .woocommerce ul.products li.product {
   float: none;
-  margin: auto;
+  margin: 20px auto;
   width: 100%;
   padding: 15px;
 }
 
 .woocommerce-Price-amount::after {
   content: " / 公斤";
+}
+
+.post-37 .woocommerce-Price-amount::after {
+  content: " / 半只";
+}
+
+.post-61 .woocommerce-Price-amount::after,
+.post-66 .woocommerce-Price-amount::after,
+.post-67 .woocommerce-Price-amount::after,
+.post-68 .woocommerce-Price-amount::after,
+.post-69 .woocommerce-Price-amount::after {
+  content: " / 套";
 }
 
 .product-subtotal .woocommerce-Price-amount::after {
@@ -7847,6 +7859,21 @@ a.close.disabled {
   padding: 0 15px;
 }
 
+.woocommerce ul.products li.product a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 576px) {
+  .woocommerce ul.products li.product a img {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+a.wc-forward {
+  margin-left: 10px;
+}
+
 /** Common sass **/
 html,
 body {
@@ -7858,6 +7885,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Noto Serif SC", serif;
   color: black;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -7937,7 +7965,7 @@ p {
 }
 @media only screen and (max-width: 600px) {
   #header .header_wrap .logo img {
-    max-width: 150px;
+    max-width: 250px;
     margin-bottom: 10px;
   }
 }
@@ -7974,4 +8002,12 @@ p {
   text-align: center;
   display: block;
   margin-bottom: 16px;
+}
+.footer .footer_wrap br {
+  display: none;
+}
+@media only screen and (max-width: 450px) {
+  .footer .footer_wrap br {
+    display: block;
+  }
 }

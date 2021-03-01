@@ -37,7 +37,7 @@
 
 .woocommerce-page .woocommerce ul.products li.product{
     float: none;
-    margin:auto;
+    margin: 20px auto;
     width: 100%;
     padding: 15px;
 }
@@ -45,6 +45,22 @@
 .woocommerce-Price-amount{
     &::after{
         content:' / 公斤'
+    }
+}
+
+.post-37 .woocommerce-Price-amount{
+    &::after{
+        content:' / 半只'
+    }
+}
+.post-61 .woocommerce-Price-amount,
+.post-66 .woocommerce-Price-amount,
+.post-67 .woocommerce-Price-amount,
+.post-68 .woocommerce-Price-amount,
+.post-69 .woocommerce-Price-amount
+{
+    &::after{
+        content:' / 套'
     }
 }
 
@@ -71,4 +87,17 @@
 
 .woocommerce-order{
     padding:0 15px;
+}
+
+.woocommerce ul.products li.product a img{
+    object-fit: cover;
+    @include media-breakpoint-up(sm) { 
+        height: 400px;
+        width: 400px;
+    }
+    
+}
+
+a.wc-forward{
+    margin-left: 10px;
 }
