@@ -164,3 +164,21 @@ function alex_product_thumbnail_size( $size ) {
     return $size;
 }
 add_filter( 'single_product_archive_thumbnail_size', 'alex_product_thumbnail_size' );
+
+
+
+
+add_filter( 'loop_shop_per_page', 'new_loop_shop_per_page', 20 );
+
+function new_loop_shop_per_page( $cols ) {
+  // $cols contains the current number of products per page based on the value stored on Options –> Reading
+  // Return the number of products you wanna show per page.
+  $cols = 30;
+  return $cols;
+}
+
+add_filter( 'single_product_archive_thumbnail_size', 'update_product_thumbnail_size', 10 );
+function update_product_thumbnail_size($size){
+    $size = "large";
+    return $size;
+}
